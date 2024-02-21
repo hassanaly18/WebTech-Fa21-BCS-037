@@ -67,9 +67,9 @@
 
   #exp {
     background-color: white;
-    margin: 10px 0px 10px 10px; /* Adjust as needed */
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
     padding: 5px;
-    padding-right: 0px;
+    padding-right: 60px;
     padding-bottom: 0px;
     font-size: 30px;
     margin-left: 20%;
@@ -86,12 +86,89 @@
 
   #expdet {
     font-size: medium;
-    /* text-align: justify; */
-    margin-right: 30px;
+    text-align: justify; 
+    margin-right: 0px;
   }
 
   .exp1 {
     justify-content: left;
     font-size: medium;
     margin-left: 0%;
+    color: #292727;
+  }
+
+  .flexedu {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #education {
+    background-color: white;
+    margin: 10px 0px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 25%;
+    margin-right: 0%;
+  }
+
+  .flexpast {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    margin-left: 0px;
+    padding-top: 10px;
+    justify-content: left;
+  }
+
+  .infoedu {
+    font-size: medium;
+    text-align: justify; 
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+  .eduhead {
+    justify-content: left;
+    font-size: medium;
+    margin-left: 0%;
+    color: #292727;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  #edu1 {
+    margin-left: 25px;
+  }
+
+  .flexextra {
+    display: flex;
+  }
+
+  .flexlan {
+    display: flex;
+  }
+
+  #engbar {
+    width: 70%;
+    border: none;
+    border-top: 5px solid #292727;
+  }
+
+  #urdbar {
+    width: 100%;
+    border: none;
+    border-top: 5px solid #292727;
+  }
+
+  #languages {
+    
   }
