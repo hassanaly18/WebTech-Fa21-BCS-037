@@ -1,0 +1,97 @@
+.flex-container {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  #namebox {
+    background-color: #292727;
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
+    padding: 15px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    font-size: 30px;
+
+  }
+
+  #name, #role {
+    color: white;
+  }
+
+  .details {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 90%;
+    border: none;
+    border-top: 2px solid #292727;
+  }
+
+  .flexabout {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    /* justify-content: center; */
+  }
+
+  #aboutdetails {
+    font-size: medium;
+    text-align: justify;
+    margin-right: 30px;
+    /* width: 50%; */
+  }
+
+  #aboutme {
+    background-color: white;
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 50%;
+    /* justify-content: center; */
+  }
+
+  .flexexp {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #exp {
+    background-color: white;
+    margin: 10px 0px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 50%;
+    margin-right: 0%;
+  }
+
+  .expdetails {
+    font-size: medium;
+    text-align: justify;
+    margin-right: 30px;
+  }
+
+  #expdet {
+    font-size: medium;
+    /* text-align: justify; */
+    margin-right: 30px;
+  }
+
+  .exp1 {
+    justify-content: left;
+    font-size: medium;
+    margin-left: 0%;
+  }
