@@ -1,0 +1,303 @@
+.flex-container {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  #namebox {
+    background-color: #3d3d3d;
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
+    padding: 15px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    padding-left: 330px;
+    margin-right: 30px;
+  }
+
+  #name, #role {
+    color: white;
+  }
+
+  .details {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 90%;
+    border: none;
+    border-top: 3px solid #3d3d3d;
+  }
+
+  .flexabout {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    /* justify-content: center; */
+  }
+
+  #aboutdetails {
+    font-size: medium;
+    text-align: justify;
+    margin-right: 30px;
+    /* width: 50%; */
+  }
+
+  #aboutme {
+    background-color: white;
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 50%;
+    /* justify-content: center; */
+  }
+
+  .flexexp {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #exp {
+    background-color: white;
+    margin: 10px 40px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 75px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 50%;
+    margin-right: 0%;
+  }
+
+  .expdetails {
+    font-size: medium;
+    text-align: justify;
+    margin-right: 30px;
+  }
+
+  #expdet {
+    font-size: medium;
+    text-align: justify; 
+    margin-right: 0px;
+  }
+
+  .exp1 {
+    justify-content: left;
+    font-size: medium;
+    margin-left: 0%;
+    color: #3d3d3d;
+  }
+
+  .flexedu {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #education {
+    background-color: white;
+    margin: 10px 0px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 23%;
+    margin-right: 0%;
+  }
+
+  .flexpast {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    margin-left: 0px;
+    padding-top: 10px;
+    justify-content: left;
+  }
+
+  .infoedu {
+    font-size: medium;
+    text-align: justify; 
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+  .eduhead {
+    justify-content: left;
+    font-size: medium;
+    margin-left: 0%;
+    color: #3d3d3d;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  #edu1 {
+    margin-left: 25px;
+  }
+
+  .flexextra {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .flexlan {
+    display: flex;
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  #languages {
+    background-color: white;
+    margin: 10px 0px 10px 10px; /* Adjust as needed */
+    padding: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-left: 0px;
+    width: 23%;
+    margin-right: 0%;
+  }
+
+  .progress-wrapper {
+    width: 50%; /* Change this to whatever width you want */
+    margin: 0px 0px 0px 10px; /* Centering the progress bar */
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px; /* Change this to adjust the height of the progress bar */
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border-color: black;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border-color: black;
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: #3d3d3d; /* Change this to change the color of the progress bar */
+    border-radius: 2px;
+  }
+
+  .progress-wrapper:hover .progress-bar {
+    /* width: 75%; Change width on hover */
+    /* box-shadow: 0px 0px 10px #9c9b9a; Add glow effect on hover */
+    transform: scale(1.1);
+    height: 20px;
+  }
+  
+  #expertise{
+    font-size: medium;
+    text-align: justify; 
+    margin-right: 0px;
+    margin-left: 6px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+
+  .list-container {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/* Style for the list */
+.list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* Style for list items */
+.list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.list li:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+
+#urduprog{
+  margin-right: 20px;
+}
+
+#engprog{
+  padding-top: 20px;
+}
+
+#gitlogo{
+  width: 38px; /* Adjust the width as needed */
+  height: 38px; /* Adjust the height as needed */
+}
+
+.links{
+  font-size: 20px;
+  margin: 0%;
+  padding-top: 7px;
+  padding-left: 3px;
+  text-decoration: none;
+  transition: color 0.3s ease, cursor 0.3s ease;
+}
+
+.links:hover{
+  color: #ff7f50; /* Change text color on hover */
+  cursor: pointer; 
+}
+
+.gitdetails{
+  display: flex;
+}
+
+#linlogo{
+  width: 28px; /* Adjust the width as needed */
+  height: 28px; /* Adjust the height as needed */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#namebox:hover{
+  /* background-color: #555; /* Change background color on hover */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */ 
+  transform: scale(1.1);
+}
+
+body{
+  font-family: "Hero New Regular",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 50px;
+}
+
+@font-face {
+  font-family: 'Hero New Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hero New Regular'), url('Hero New Regular.woff') format('woff');
+  } 
