@@ -153,3 +153,49 @@ hr {
     width: 80px;
     margin-right: 2px;
 }
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 1.5em;
+}
+
+.galpic{
+    height: 160px;
+     width: 220px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.galpic:hover{
+    transform: scale(1.1);
+}
+
+#cattext{
+    color: white;
+    margin-left: 13%;
+    font-weight: bolder;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 1.5em;
+}
+
+.featpic{
+    height: 160px;
+     width: 220px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
