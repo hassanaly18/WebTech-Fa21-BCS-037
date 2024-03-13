@@ -199,3 +199,29 @@ hr {
     border-radius: 15px;
     transition-duration: 0.3s;
 }
+
+#carouselExampleSlidesOnly {
+    /* height: 400px; Adjust this value as needed */
+    margin: 10px 2% 10px 2px;
+  }
+  
+  /* Make images responsive and fill the carousel */
+  .carousel-item img {
+    height: 30em;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+
+  .carpanel{
+    display: flex;
+  }
+
+  #leftcar{
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+  
+  /* .carousel-caption{
+    text-align: left;
+  }  */
