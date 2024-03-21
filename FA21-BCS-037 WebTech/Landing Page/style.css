@@ -225,3 +225,77 @@ hr {
   /* .carousel-caption{
     text-align: left;
   }  */
+
+  .card1{
+    /* display: flex; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card1 img{
+    transition: opacity 0.2s ease; /* Smooth transition for opacity */
+  }
+
+  .card1 .col-3 {
+    display: inline-block;
+    margin: 0 10px; /* Adjust this value to change the horizontal spacing */
+    position: relative;
+  }
+
+  .card1 .image-text {
+    position: absolute;
+    bottom: 45%; /* Adjust this value to change the distance of text from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-size: 25px; /* Adjust this value to change the font size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #2b2b2b; /* Adjust shadow values as needed */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .card1 .col-3:hover img {
+    opacity: 0.7; /* Reduce opacity on hover */
+    cursor: pointer;
+  }
+
+  #newprod{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgb(46, 43, 43);
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color: whitesmoke;
+  }
+
+  #newprodline{
+    margin: 0 auto; /* Center the hr horizontally */
+    width: 5%; /* Set the width of the hr */
+    border: none; /* Remove the default border */
+    height: 5px; /* Set the thickness of the hr */
+    background-color: rgb(0, 253, 13); 
+    opacity: 1;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .products{
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .products .col-2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .products .col-md-3 {
+    margin: 10px; /* Add margin to create space between cards */
+  }
