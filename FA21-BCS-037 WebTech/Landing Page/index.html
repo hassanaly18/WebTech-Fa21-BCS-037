@@ -19,6 +19,11 @@
     />
   </head>
   <body>
+
+    <div class="announcement">
+      <p>Welcome to SportsGear&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#featured">Shop Now></a></p>
+    </div>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SportsGear</a>
@@ -94,7 +99,7 @@
             <button class="create-account-btn">Create Account</button>
         </div>
     </div> -->
-    <hr />
+    <hr id="tophr">
     <!-- <div class="container">
             <div class="cntrimg">
                 <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_960,q_50/lsci/db/PICTURES/CMS/292900/292973.6.jpg" alt="Error">
@@ -140,10 +145,10 @@
             <div class="carousel-item active">
               <img src="kit.jpg" class="d-block w-100" alt="Error" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
+                <h5>Unleash the player inside you!</h5>
+                <!-- <p>
+                  Play 
+                </p> -->
               </div>
             </div>
           </div>
@@ -231,7 +236,7 @@
       </div>
     </div> -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row products">
         <div class="col-md-3">
           <div class="card" style="width: 18rem;">
@@ -254,10 +259,57 @@
           </div>
         </div>
       </div>
-    </div>
-    
+    </div> -->
 
-    <div class="gallery">
+    <div class="row" id="featured">
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="ollie.webp">
+                      <img class="pic-2" src="bbr.webp">
+                  </a>
+                  <a href="#" class="product-like-icon" data-tip="Add to Wishlist">
+                      <i class="far fa-heart"></i>
+                  </a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-search"></i></a></li>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-random"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title">Babar Azam Pro Edition Tempesta 1.3<a href="#"></a></h3>
+                  <div class="price">$759.99</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="bbr.webp">
+                      <img class="pic-2" src="ollie.webp">
+                  </a>
+                  <span class="product-sale-label">Sale</span>
+                  <a href="#" class="product-like-icon" data-tip="Add to Wishlist">
+                      <i class="far fa-heart"></i>
+                  </a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-search"></i></a></li>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-random"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Ollie Pope Pro Edition Tempesta 1.3</a></h3>
+                  <div class="price"><span>$680</span> $570</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- <div class="gallery">
       <div>
         <img
           class="galpic"
@@ -287,7 +339,7 @@
         />
       </div>
     </div>
-    <p id="cattext">Featured Categories</p>
+    <p id="cattext">Featured Categories</p> -->
     <!-- <div class="featured">
       <div>
         <img
@@ -325,6 +377,7 @@
         />
       </div>
     </div> -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
