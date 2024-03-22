@@ -32,7 +32,7 @@
       <div class="container-fluid">
         <a
           class="navbar-brand"
-          href="Landing Page/index.html"
+          href="../Landing Page/index.html"
           >SportsGear</a
         >
         <button
@@ -49,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="../Landing Page/index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
@@ -74,7 +74,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact.html" aria-current="page">Contact Us</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -102,11 +102,11 @@
     </figure>
 
     <div class="container-fluid" id="form1">
-      <div class="col-6">
-        <h1>Contact Form</h1>
+      <div class="col-6" id="leftside">
+        <h1>Fill the form Now!</h1>
         <form id="contact_form" name="contact_form" method="post">
           <div class="mb-5 row">
-            <div class="col">
+            <div class="col" style="margin-top: 15px;">
               <label>Name</label>
               <input
                 type="text"
@@ -141,14 +141,18 @@
               rows="5"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary px-4 btn-lg">
-            Send
-          </button>
+          <div class="btngrp">
+            <button type="submit" class="btn btn-outline-primary" id="sendbtn">
+              Send
+            </button>
+          </div>
         </form>
       </div>
       <div class="vertical-line"></div>
       <div id="para">
         <p>
+          <span style="font-size: 24; font-weight: 680;">Instructions</span>
+          <br>
           We're here to help! Please fill out the form below with your inquiry,
           and we'll get back to you as soon as possible. Please ensure all
           fields are filled out accurately to expedite our response. If you have
