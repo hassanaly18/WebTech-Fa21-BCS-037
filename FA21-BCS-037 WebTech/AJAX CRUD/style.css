@@ -1,0 +1,8 @@
+/* Animation for button hover effect */
+.btn-edit, .btn-del {
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-edit:hover, .btn-del:hover {
+    transform: scale(1.1);
+}
