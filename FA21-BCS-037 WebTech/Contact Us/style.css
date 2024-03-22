@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+  
+  .search-bar {
+    display: inline-block;
+    background-color: #666;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #666;
+    border: none;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signin-btn {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .create-account-btn {
+    padding: 8px 16px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  hr {
+    color: white;
+    border-width: 1px;
+  }
+  
+  #newprod {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgb(46, 43, 43);
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color: whitesmoke;
+  }
+  
+  #newprodline {
+    margin: 0 auto; /* Center the hr horizontally */
+    width: 5%; /* Set the width of the hr */
+    border: none; /* Remove the default border */
+    height: 5px; /* Set the thickness of the hr */
+    background-color: rgb(0, 253, 13);
+    opacity: 1;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .products {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .products .col-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: Arial, sans;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    vertical-align: middle;
+    font-size: 0.8em;
+  }
+  
+  .announcement a { 
+    color: #ccc; 
+  }
+  
+  .announcement a:hover {
+    color: red;
+  }
+  
+  #tophr{
+    background-color: #2b2b2b;
+  }
+
+  #form1{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 15px 15px 15px 15px;
+  }
+
+  .vertical-line { 
+    width: 1px; 
+    background-color: black; 
+ } 
+
+ #para{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+ }
