@@ -13,12 +13,12 @@ function displayStories() {
           `<div class="mb-3">
             <h3>${story.title}</h3>
             <div>${story.content}</div>
-            <div>
-                <button type="button" id="btn-edit" class="btn btn-outline-dark" data-id="${story.id}">Edit</button>
+            <div class="btngrp">
+                <button type="button" id="btn-edit" class="btn btn-outline-light" data-id="${story.id}">Edit</button>
                 <button type="button" id="btn-dell" class="btn btn-outline-danger" data-id="${story.id}">Delete</button>
                 </div>
         </div>
-        <hr />
+        <hr id="hr1"/>
               `
         );
       });
@@ -28,6 +28,7 @@ function displayStories() {
     },
   });
 }
+
 // Function to delete a story
 function deleteStory() {
   let storyId = $(this).attr("data-id");
@@ -74,6 +75,33 @@ function handleFormSubmission(event) {
     });
   }
 }
+
+// function showGreenPopup() {
+//   const toastHTML = `
+//       <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true">
+//           <div class="toast-header">
+//               <strong class="me-auto">Success</strong>
+//               <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+//           </div>
+//           <div class="toast-body">
+//               Story uploaded successfully.
+//           </div>
+//       </div>
+//   `;
+  
+//   // Append the toast message to the body
+//   $('body').append(toastHTML);
+  
+//   // Initialize the toast using Bootstrap's toast API
+//   var toastEl = document.querySelector('.toast');
+//   var toast = new bootstrap.Toast(toastEl);
+  
+//   // Show the toast
+//   toast.show();
+// }
+
+
+
 function editBtnClicked(event) {
   event.preventDefault();
   let storyId = $(this).attr("data-id");

@@ -6,6 +6,55 @@
 .btn-edit:hover, .btn-dell:hover {
     transform: scale(1.1);
 } */
+body{
+    background-color: rgb(48, 42, 53);
+}
+
+.container.mt-5{
+    background-color: rgb(48, 42, 53);
+    color: antiquewhite;
+}
+
+.heading{
+    font-weight: 500;
+}
+
+#createTitle{
+    border-top: none; /* Remove top border */
+    border-left: none; /* Remove left border */
+    border-right: none; /* Remove right border */
+    border-bottom: 2px solid white; /* Set bottom border color to white */
+    background-color: transparent; 
+    border-radius: 0px;
+    color: aliceblue;
+    width: 50%;
+}
+
+#createContent{
+    border: 2px solid white; /* Set all borders to white */
+    background-color: transparent;
+    color: aliceblue;
+}
+
+#createTitle:hover,
+#createContent:hover {
+    /* Add hover effect */
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust opacity or color as desired */
+}
+
+
+.btns{
+    text-align: right;
+}
+
+.btngrp{
+    margin-top: 1em;
+    text-align: right;
+}
+
+#hr1{
+    border-top: 1px solid white; /* Set border color to white */
+}
 
 #createBtn, #clearBtn, #btn-edit, #btn-dell{
     margin-left: 3px;
@@ -19,3 +68,4 @@
 #createBtn:hover, #clearBtn:hover, #btn-edit:hover, #btn-dell:hover {
     transform: scale(1.1); /* Scale effect on hover */
 }
+
