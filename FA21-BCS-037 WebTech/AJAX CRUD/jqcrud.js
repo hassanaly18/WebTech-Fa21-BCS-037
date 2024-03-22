@@ -14,9 +14,9 @@ function displayStories() {
             <h3>${story.title}</h3>
             <div>${story.content}</div>
             <div>
-                <button type="button" class="btn btn-outline-dark" data-id="${story.id}">Edit</button>
-                <button type="button" class="btn btn-outline-danger data-id="${story.id}">Delete</button>
-            </div>
+                <button type="button" id="btn-edit" class="btn btn-outline-dark" data-id="${story.id}">Edit</button>
+                <button type="button" id="btn-dell" class="btn btn-outline-danger" data-id="${story.id}">Delete</button>
+                </div>
         </div>
         <hr />
               `
@@ -97,8 +97,8 @@ $(document).ready(function () {
   // Initial display of stories
 
   displayStories();
-  $(document).on("click", ".btn-del", deleteStory);
-  $(document).on("click", ".btn-edit", editBtnClicked);
+  $("#storiesList").on("click", "#btn-dell", deleteStory);
+  $("#storiesList").on("click", "#btn-edit", editBtnClicked);
   // Create Form Submission
   $("#createForm").submit(handleFormSubmission);
   $("#clearBtn").on("click", function (e) {

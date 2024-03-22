@@ -1,8 +1,21 @@
 /* Animation for button hover effect */
-.btn-edit, .btn-del {
-    transition: transform 0.2s ease-in-out;
+/* .btn-edit, .btn-del {
+    transition: transform 0.1s ease-in-out;
 }
 
-.btn-edit:hover, .btn-del:hover {
+.btn-edit:hover, .btn-dell:hover {
     transform: scale(1.1);
+} */
+
+#createBtn, #clearBtn, #btn-edit, #btn-dell{
+    margin-left: 3px;
+    font-weight: 600;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    transition: transform 0.1s ease-in-out; /* Transition for scaling */
+}
+
+#createBtn:hover, #clearBtn:hover, #btn-edit:hover, #btn-dell:hover {
+    transform: scale(1.1); /* Scale effect on hover */
 }
