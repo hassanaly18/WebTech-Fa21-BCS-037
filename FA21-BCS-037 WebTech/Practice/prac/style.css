@@ -1,0 +1,149 @@
+#Subscribe {
+    margin: 5%;
+    margin-top: 0%;
+    height: 30px;
+
+}
+
+#logo{
+    width: 350px;
+}
+
+#logIn{
+    margin: 5%;
+    margin-top: 0%;
+    height: 30px;
+     
+}
+
+#search{
+    height: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add some spacing between list items */
+}
+
+/* CSS for navigation dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Additional styles to override Bootstrap */
+.dropdown-content .subtype a {
+    padding-left: 20px; /* Adjust padding as needed */
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainArticle{
+    max-width: 600px;
+
+}
+
+.mainArticle img{
+    height: 300px;
+}
+
+/* card stuff starts here */
+.cardFlex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+.side-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: right; 
+    max-width: 300px;
+}
+
+.side-box h2 {
+    margin-top: 0;
+}
+
+.article-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin-bottom: 10px;
+}
+
+.article-list li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-list li a:hover {
+    text-decoration: underline;
+}

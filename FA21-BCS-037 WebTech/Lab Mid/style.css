@@ -1,0 +1,117 @@
+#nav1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.bignav{
+    background-color: black;
+}
+
+#nitem{
+    color: white;
+    font-size: 16px;
+}
+
+ #logo{
+    height: 0.4em;
+    width: 0.4em;
+} 
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white; /* Set the background color to white */
+}
+
+#logo {
+    height: 50px; /* Adjust the height as per your requirement */
+    width: auto; /* Let the width adjust proportionally */
+    max-width: 100%; /* Ensure the width doesn't exceed its container */
+}
+
+
+#navbarSupportedContent{
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+#searchbtn{
+    border-color: white;
+    color: white;
+}
+
+.nav2{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.nav21{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.content{
+    display: flex;
+    margin-top: 20px;
+}
+
+#left{
+    display: flex;
+}
+
+#rleft{
+    margin-left: 30px;
+    text-align: center;
+}
+#lleft{
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#head{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#img1{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#video1{
+    border-radius: 10px;
+}
+
+#right{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.text1 {
+    color: black; /* Set the color to a lighter shade, adjust as needed */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+.text1:hover {
+    color: #555; /* Change color on hover, adjust as needed */
+}
+
+.rright{
+    display: flex;
+}
+
+.imglist{
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
