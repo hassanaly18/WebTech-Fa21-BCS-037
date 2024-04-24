@@ -1,0 +1,108 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlapping Effect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="image1.jpg" alt="Image 1" class="image image1">
+        <img src="image2.jpg" alt="Image A" class="image image2">
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects for Current Semester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="subjects">
+        <li><a href="subject1.html">Subject 1</a></li>
+        <li><a href="subject2.html">Subject 2</a></li>
+        <li><a href="subject3.html">Subject 3</a></li>
+         Add more subjects as needed -->
+    <!-- </ul>
+</body>
+</html>
+ --> 
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <label for="operand1">Operand 1:</label>
+    <input type="text" id="operand1">
+    <label for="operand2">Operand 2:</label>
+    <input type="text" id="operand2">
+    <button id="calculate">Calculate</button>
+    <div id="result"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#calculate').click(function() {
+                var operand1 = $('#operand1').val();
+                var operand2 = $('#operand2').val();
+                var data = {
+                    operand1: operand1,
+                    operand2: operand2
+                };
+
+                // Send POST request to the API endpoint
+                $.post('http://localhost:3000/api/calculate', data, function(response) {
+                    $('#result').text('Result: ' + response.result);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var message = document.getElementById('message').value.trim();
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill in all fields.');
+                return false; // Prevent form submission
+            }
+
+            // Additional validation logic can be added here
+
+            return true; // Allow form submission
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateForm();" id="myForm">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message: </label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

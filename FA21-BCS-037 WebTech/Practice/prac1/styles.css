@@ -1,0 +1,39 @@
+/* .container {
+    position: relative;
+    width: 600px; 
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    z-index: 1;
+    margin: 5px;
+}
+
+.image2 {
+    z-index: 2;
+    opacity: 0.8; 
+} */
+
+
+/* Style for normal state */
+.subjects li a {
+    color: #000; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Style for hover state */
+.subjects li a:hover {
+    color: #f00; /* Text color on hover */
+    font-weight: bold; /* Bold text on hover */
+}
+
+/* Style for visited state */
+.subjects li a:visited {
+    color: #666; /* Color for visited links */
+}
