@@ -1,12 +1,13 @@
 /* Footer styles */
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #2e2b2b;
     color: #fff;
     padding: 20px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 10px;
   }
   
   
@@ -51,7 +52,7 @@ footer {
   }
   
   .footer-bottom {
-    background-color: #333;
+    background-color: #2e2b2b;
     color: #fff;
     padding: 15px 0;
   }

@@ -12,4 +12,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/contactUs", (req, res)=>{
+  res.render("contactus")
+});
+
 app.listen("3000");
