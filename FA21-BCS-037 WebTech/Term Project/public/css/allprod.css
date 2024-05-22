@@ -1,0 +1,82 @@
+.product-grid {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.product-grid:hover {
+    transform: scale(1.05);
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+.product-content .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.product-content .price {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.product-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+}
+.product-links li {
+    display: inline-block;
+}
+.product-links li a {
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.pageNumChangeBtn {
+    margin-top: 20px;
+    text-align: center; /* Center the pagination buttons */
+    background-color: transparent; /* Optional: Adds a background color */
+}
+
+.pageNumChangeBtn .pagination {
+    justify-content: center;
+}
+
+/* Default style for all page items */
+.pagination .page-item {
+    margin: 0 5px; /* Adjust margin between items */
+    border: none; /* Optional: remove border if any */
+  }
+  
+  /* Default style for page links */
+  .pagination .page-item .page-link {
+    background-color: #2e2b2b; /* Default background color for page links */
+    color: white; /* Default text color for page links */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make the link cover the entire page item area */
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: add some border radius */
+  }
+  
+  /* Hover style for page links */
+  .pagination .page-item .page-link:hover {
+    color: black; /* Change text color on hover */
+  }
+  
+  /* Active page item */
+  .pagination .page-item.active .page-link {
+    background-color: white !important; /* Background color for active page item */
+    color: black !important; /* Text color for active page item */
+    border-color: black;
+    border-width: 1px;
+  }
+  
+  

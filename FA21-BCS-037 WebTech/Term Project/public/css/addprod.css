@@ -1,0 +1,124 @@
+#prodform {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background-color: rgb(49, 49, 51);
+  color: white;
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 25px;
+  border: 1px solid rgb(0, 253, 13); /* Optional: border styling */
+  position: relative;
+}
+
+/* body {
+    background-color: rgb(49, 49, 51);
+  } */
+
+h2 {
+  text-align: left;
+  width: 100%;
+}
+form {
+  width: 100%;
+  max-width: 600px; /*Optional: set a max width for the form */
+}
+
+#newprod {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: rgb(46, 43, 43);
+  padding-top: 10px;
+  padding-bottom: 1px;
+  color: whitesmoke;
+}
+
+#newprodline {
+  margin: 0 auto; /* Center the hr horizontally */
+  width: 5%; /* Set the width of the hr */
+  border: none; /* Remove the default border */
+  height: 5px; /* Set the thickness of the hr */
+  background-color: rgb(0, 253, 13);
+  opacity: 1;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#title,
+#price {
+  border-top: none; /* Remove top border */
+  border-left: none; /* Remove left border */
+  border-right: none; /* Remove right border */
+  border-bottom: 2px solid rgb(0, 253, 13); /* Set bottom border color to white */
+  background-color: transparent;
+  border-radius: 0px;
+  color: aliceblue;
+  width: 50%;
+}
+
+#category {
+  margin-top: 5px;
+  width: 200px; /* Adjust the width as needed */
+  background-color: #2e2b2b; /* Background color for the select element */
+  color: white; /* Text color for the select element */
+  border: 1px solid rgb(0, 253, 13); /* Optional: border styling */
+  padding: 5px; /* Optional: padding for better appearance */
+}
+
+#category option {
+  background-color: #2e2b2b; /* Background color for dropdown options */
+  color: white; /* Text color for dropdown options */
+}
+
+#uploadpic {
+  margin: 10px 0; /* Adjust margin as needed */
+}
+
+#uploadlabel {
+  color: white; /* Text color for label */
+}
+
+#uploadpic input[type="file"]::-webkit-file-upload-button {
+  display: none; /* Hide the default file upload button in webkit browsers */
+}
+
+#uploadpic .form-control-file::before {
+  content: "Choose File"; /* Text for custom file input label */
+  background-color: #2e2b2b; /* Background color for custom file input */
+  color: white; /* Text color for custom file input */
+  padding: 10px; /* Padding for custom file input */
+  border-radius: 5px; /* Rounded corners for custom file input */
+  display: inline-block;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+#uploadpic .form-control-file:hover::before {
+  background-color: #3c3939; /* Slightly darker background on hover */
+}
+
+#uploadpic .custom-file-input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+#uploadpic .custom-file-label {
+  display: inline-block;
+  padding: 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Optional: Add border for better appearance */
+  border-radius: 5px; /* Optional: Add border radius */
+}
+
+#uploadpic .custom-file-label:hover {
+  cursor: pointer; /* Change cursor on hover */
+}
+
+#submitbtn {
+  position: absolute;
+  bottom: 15px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  
+}

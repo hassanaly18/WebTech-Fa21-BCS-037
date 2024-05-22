@@ -1,0 +1,29 @@
+/* styles.css */
+#content-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.pagination-button.active {
+    background-color: #007bff;
+    color: white;
+}

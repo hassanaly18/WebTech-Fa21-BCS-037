@@ -488,3 +488,74 @@ body {
   #tophr{
     background-color: #2b2b2b;
   }
+
+  /* nav */
+
+  .bg-dark-custom {
+    background-color: #2e2b2b !important;
+  }
+  
+  .text-white {
+    color: white !important;
+  }
+  
+  .navbar-brand {
+    margin-right: auto; /* Positions the brand on the left */
+  }
+  
+  #navbar-items {
+    margin-left: auto; /* Positions the navbar items on the right */
+  }
+  
+  .nav-link {
+    color: white !important;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+  .nav-link:hover {
+    color: #cccccc !important; /* Optional: Add a hover effect */
+  }
+  
+  .btn-outline-light {
+    margin-left: 5px;
+    color: white;
+    border-color: white;
+  }
+  
+  .btn-outline-light:hover {
+    color: #2e2b2b;
+    background-color: white;
+    border-color: white;
+  }
+  
+  .navbar-brand {
+    cursor: pointer; /* Changes cursor to pointer on hover for brand */
+  }
+  
+  .announcement {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .announcement p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .announcement a.shop-now-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer; /* Changes cursor to pointer */
+  }
+  
+  .announcement a.shop-now-link:hover {
+    color: rgb(0, 253, 13); /* Changes color to red on hover */
+  }
+  
+  #brand img {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 10px; /* Adjust the spacing between the logo and text */
+  }
+  
