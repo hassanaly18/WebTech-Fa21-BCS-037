@@ -1,0 +1,16 @@
+<!-- views/partials/cart.ejs -->
+<div class="cart">
+    <h3>Your Cart</h3>
+    <ul class="list-group">
+        <% if (cart && cart.length > 0) { %>
+            <% cart.forEach(item => { %>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span><%= item.product.title %> (x<%= item.quantity %>)</span>
+                    <span>$<%= item.product.price %> each</span>
+                </li>
+            <% }) %>
+        <% } else { %>
+            <li class="list-group-item">Your cart is empty</li>
+        <% } %>
+    </ul>
+</div>
